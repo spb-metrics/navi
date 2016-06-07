@@ -1,0 +1,60 @@
+
+
+BODY,TABLE,TD { font-size:11px; }
+BODY { text-align:center; }
+.titulo { text-align: center; font-weight: bold }
+
+
+/** CSS PARA A TABELA DE VISUALIZACAO DAS MENSAGENS ( INBOX ) **/
+
+.msgActions { text-align:center; }
+#divInbox { text-align: center }
+#tool {text-align:center;}
+
+#tabelaInboxMsg { width:670px; background-color:#000000;}
+.rowOddTabInbox { background-color:#EDEDcD;}
+.rowEvenTabInbox {background-color:#DfDFCE; }
+
+/**para poder diferenciar entre caixa de entrada e caixa de saida */
+#tabelaInboxMsgOut { width:670px; background-color:#000000;}
+.rowOddTabInboxOut { background-color:#C2E0F7;}
+.rowEvenTabInboxOut {background-color:#B0C8DB; }
+.colHeaderTabInboxOut { text-align: center; font-weight: bold; background-color: #5984A5}
+
+.colTabInbox { padding-left: 10px; vertical-align: bottom; }
+.colTabInboxNaoLida { padding-left: 10px; vertical-align: bottom; font-weight: bold }
+.linkNaoLida:link { font-weight: bold }
+.linkNaoLida:hover { font-weight: bold }
+.dataMensagem {}
+
+.colHeaderTabInbox { text-align: center; font-weight: bold; background-color: #BBBBBB} 
+
+/** CLASSES PARA A LEITURA DE UMA MENSAGEM **/
+
+.tabShowMessage { width:100%;}
+.colShowMessageLabel {text-align: left; font-weight:bold; width:10%;}
+.colShowMessage {text-align: left; }
+
+.operacoesVisualizacaoMensagem {   padding: 5px;  text-align:center;}
+.colunaOperVisMsg  {  width:160px;}
+.contentMessage { text-align: left; border:1px solid #000000; padding:10 10 10 10;}
+.anexosDiv { text-align: left; border:1px solid #000000; padding:10 10 10 10;}
+.anexosDivHeader { font-weight: bold}
+
+
+/** CLASSES PARA ESCREVER MENSAGEM**/
+.to {font-weight:bold;}
+.subject {font-weight:bold;}
+.anexosTitle {font-weight: bold}
+
+/** CLASSES PARA MEUS CONTATOS **/
+#divMeusContatos { position: absolute; top: 20px; left: 435px ; border: 1px solid black ; width: 260px; text-align: center; padding: 0px}
+
+.divInternaMeusContatos { text-align: left;  }
+
+.headerMeusContatos { background-color: #BBBBBB; width: 100% }
+
+/** CLASSES PARA A PROCURA DE USUÀRIO **/
+.tabelaProcuraUsuarios { background-color:#000000;} 
+.linhaProcura0 { background-color: #DFDFCE; }
+.linhaProcura1 { background-color: #EDEDCD; }

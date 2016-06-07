@@ -1,0 +1,12 @@
+BODY {  
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; 
+color: #000000; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; 
+background-color:#FEFEEF;
+}
+TABLE, TH, TR, TD {  font-size: 11px}
+
+/* EMOTICONS*/
+#tabelaEmoticons { width:500; text-align:center; }
+#tabelaEmoticons A { text-decoration: none;  text-align:center; display:block; border:1px solid #FEFEEF;}
+#tabelaEmoticons A:hover { border:1px outset #C0C0C0; background-color: #EEEEDF; }
+.emoticon { border: 0 } /** CLASSE PARA A IMAGEM PROPRIAMENTE DITA DO EMOTICON **/

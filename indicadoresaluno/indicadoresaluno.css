@@ -1,0 +1,19 @@
+
+
+BODY, TABLE, TR, TD {  font-size:10px }
+
+/*TABLE { background-color:#000000;}
+TH { background-color:#000066; color:#ffffff;}
+TD { background-color:#FFFFFF;}*/
+
+
+TABLE.tabela {
+background-color:#000000;
+
+}
+TH.tabela {
+background-color:#000066; color:#FFFFFF;
+}
+TD.tabela { 
+background-color:#FFFFFF;
+}

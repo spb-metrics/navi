@@ -1,0 +1,87 @@
+BODY { background-image: url("imagens/cafeTransparente.jpg"); background-repeat: no-repeat; background-position: center;}
+A { color: #352B26 }
+A:link {  text-decoration: none}
+A:hover {  text-decoration: underline}
+A:active {  text-decoration: none}
+A:visited {  text-decoration: none}
+
+.exibe_titulo { font-family: Cursive,Arial, Helvetica, sans-serif; font-size: 15px; font-style: normal; background-color: #C1C1F0; font-weight: bold; color: #0000FF}
+
+.cabecalho { border-bottom:2px solid #914B09;}
+
+
+.forum {  font-family: Cursive,Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; }
+
+/* Formatacao das mensagens*/
+.escreve {  font-family: Cursive,Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; background-color: #C1C1F0; font-weight: bold; color: #0000FF}
+.exibe_normal {  font-family: Cursive,Arial, Helvetica, sans-serif; font-size: 12px;  border-top:1px dashed #C57B2B;}
+.exibe_resposta {  font-family: Cursive,Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; }
+.escreve2 { font-family: Cursive,Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: #0000FF }
+.exibe_prof_normal {  font-family: Cursive,Arial, Helvetica, sans-serif; font-size: 12px;  border-top:1px dashed #C57B2B;}
+.exibe_prof_resposta {  font-family: Cursive,Arial, Helvetica, sans-serif; font-size: 12px;  border-top:1px dashed #C57B2B;}
+
+.usuario { color: #352B26; font-weight:bold;}
+
+.fieldsetTopico	{font-size:10px; background-color:#FCEEDE;}
+
+
+.paginacao { font-family: Cursive,Arial, Helvetica, sans-serif; font-size: 12px }
+
+/** ESTILO PARA EMOTICONS **/
+
+/** CLASSE PARA A IMAGEM PROPRIAMENTE DITA DO EMOTICON **/
+.emoticon { border: 0 }
+
+#tabelaEmoticons { }
+#linhaTabelaEmoticons {}
+#colunaTabelaEmoticons { text-align:center; vertical-align:top; width:35px;} 
+
+#topico {
+	width:100%;
+	/*border:2px solid; margin:3px 3px 3px 3px;*/
+
+}
+
+
+#topico.titulo{
+	font-size:12px;
+	background-color: #C5D3F8;
+	color:#000099;
+	font-weight: bold;
+	border-bottom:1px solid #000000;
+	text-align: left;
+}
+
+#topico td{
+	/*background-color:#E9E9E9;*/
+	border-left: 1px dotted;
+	border-top:1px dotted;
+	border-right:1px dotted;
+	border-bottom:1px dotted;
+}
+
+/*#topico .tdNovoTopico1 {
+	font-size:10px; background-color:#FCEEDE;
+	
+}*/
+
+#topico .tdBranca{
+	border-left: 0px;
+	border-top:0px;
+	border-right:0px;
+	border-bottom:0px;
+}
+#topico.table{
+	margin-top: 15px;
+	margin-left:10px
+	margin-right:10px
+
+}
+#topico . menu
+{
+COLOR: #000099;
+FONT-WEIGHT: bold;
+TEXT-DECORATION: none;
+font-size: 15px}
+
+}

@@ -1,0 +1,63 @@
+@import url(padraogeral.css);
+
+.tabelaQuestao{
+	width:600px;
+	vertical-align: bottom;
+	text-align: left;
+	
+}
+.titulos{
+	/*width:600px;*/
+	font-size: large;
+	font-weight: bold;
+	color: navy;
+}
+.tipos{
+  color:blue;
+  text-align:left;
+}
+.cancelar{
+   color:red;
+   background-color:#FCEEDE;
+}
+.submit1{
+   color:blue;
+   background-color: #c5d3f8;
+}
+.submit2{
+   color:blue;
+   background-color: #c5d3e0;
+}
+.questao{
+  width:600px;
+	vertical-align: bottom;
+	border-color:  #D5e3f8;
+	background-position: center;
+	background-color:#ffffff;
+  border:1px #000000 solid;	
+}
+.tituloquestao{
+   background-color: #D5e3f8 ;
+   /*border-left: 1px dotted;
+	 border-top:1px dotted;
+	 border-right:1px dotted;
+	 border-bottom:1px dotted; */
+   border-bottom:1px #000000 solid;
+   border-top:1px #000000 solid;
+}
+.linha{
+    /*border-left: 1px dotted;
+	  border-top:1px dotted;*/
+	  border-right:1px dotted;
+	  border-bottom:1px dotted;
+}
+
+.tabela {
+background-color:#000000;
+}
+TH.tabela {
+background-color:#000066; color:#FFFFFF;
+}
+TD.tabela { 
+background-color:#FFFFFF text-align:center;
+}

@@ -1,0 +1,20 @@
+<html><head>
+<style type="text/css">
+BODY {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; background-color:#FEFEEF; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;  }
+TABLE, TH, TR, TD {  font-size: 11px}
+
+.msgNormal {padding:2px; border-bottom:1px solid #C0C0C0;  }
+.linhaImpar {background-color:#DFDFCF;}
+.linhaPar {background-color:#EDEDDD; }
+.msgProfessor { color:red; font-weight:bold; }
+.msgPergunta {color:green; font-weight:bold; }
+.horario { color: #043004; display:normal;}
+</style>
+<script>
+function submit_exit() {  
+  parent.frames[1].document.form1.MESSAGE.value = "/quit"; 
+  parent.frames[1].document.form1.submit(); 
+}
+</script>
+</head>
+<body  onUnLoad="submit_exit();"><div id="mensagensChat"></div></body></html>

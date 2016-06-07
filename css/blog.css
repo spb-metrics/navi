@@ -1,0 +1,91 @@
+@import url(padraogeral.css);
+BODY{overflow:scroll;}
+.tituloBlog {
+	font-family: "Times New Roman", Times, serif;
+	font-size: x-large;
+	color: #999999;
+	text-align:center;
+}
+.novoPost {
+	font-family: "Times New Roman", Times, serif;
+	color: #333333;
+	font-weight: bold;
+}
+.data {
+	font-family: "Times New Roman", Times, serif;
+	color: #666666;
+}
+.tituloPost {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	text-align:center;
+	font-weight:bolder;
+	color: #666666;
+	font-size: medium;
+}
+.post{
+	border:'border-width' 'border-style' 'color';
+	border-style:dotted;
+	border-color:#cccccc;
+	border-width:thin;
+	margin-top:'10px';
+
+	
+}
+
+.comentario{
+  border:'border-width' 'border-style' 'color';
+  border-color:#cccccc;
+  border-bottom-style:dotted;
+  border-width:thin;
+  margin-bottom:'20px';
+ 
+ 
+}
+.recadoDe{
+  border:'border-width' 'border-style' 'color';
+  border-color:#cccccc;
+  border-bottom-style:solid;
+  border-width:'1px';
+  margin-left:'20px';
+  margin-right:'20px';
+
+}
+.layerRecadoSuperior{
+  width:227;
+  height:72;
+  background-repeat: no-repeat;
+  background-image:url( ../imagens/parteSuperior.gif);
+}
+.layerRecadoMeio{
+  width:227;
+  background-repeat:repeat-y;
+  background-image:url( ../imagens/parteMeio.gif);
+}
+.layerRecadoInferior{
+  width:227;
+  height:76;
+  background-repeat: no-repeat;
+  background-image:url( ../imagens/parteInferior.gif);
+}
+.layerRecado{
+ float:left;
+ width:227;
+ height:192;
+ background-image:url( ../imagens/reados.gif);
+}
+
+.paginacaoRodape{
+	text-align:'left';
+}
+.LayerDireita{
+  float:right;
+  width:23%;
+  
+}
+.LayerEsquerda{
+  float:left;
+  width:75%;
+}
+
+

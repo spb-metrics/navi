@@ -1,0 +1,12 @@
+@import url(padraogeral.css); 
+td {font-family: verdana; font-size: 12px; }
+
+.table {border: 1px solid; font-size: 10px; border-color: #EAEAEA;}
+.smallStrong {font-family: verdana; font-size: 10px; font-weight: bold;}
+.strong {font-family: verdana; font-size: 11px; font-weight: bold;}
+.grandeStrong {font-family: verdana; font-size: 13px; font-weight: bold;}
+.linkAzul {font-family: verdana; font-size: 11px; text-decoration: none; color: #3E89D5;}
+.linkAzulNano {font-family: verdana; font-size: 10px; text-decoration: none; color: #3E89D5;}
+.nano {font-family: verdana; font-size: 15px; }
+.botao {font-family: verdana; font-size: 10px; border: 1px solid #AAAAAA; background-color: #F8F8F8;}
+.textarea {font-family: verdana; font-size: 10px; border: 1px solid #AAAAAA; background-color: #F8F8F8; border-color: #EAEAEA;}

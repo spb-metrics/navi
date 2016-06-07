@@ -1,0 +1,36 @@
+@import url(padraogeral.css);
+
+#endereco {
+	width:100%;
+	/*border:2px solid; margin:3px 3px 3px 3px;*/
+
+}
+
+#endereco .tituloEndereco{
+	font-size:12px;
+	background-color: #C5D3F8;
+	color:#000066;
+	font-weight: bold;
+	border-bottom:1px solid #000000;
+}
+
+#endereco td{
+	/*background-color:#E9E9E9;*/
+	border-left: 1px dotted;
+	border-top:1px dotted;
+	border-right:1px dotted;
+	border-bottom:1px dotted;
+}
+
+#endereco .tdTituloEndereco {
+	font-size:10px; background-color:#F4F4F4;
+	
+}
+
+#endereco .tdBranca{
+	border-left: 0px;
+	border-top:0px;
+	border-right:0px;
+	border-bottom:0px;
+}
+	

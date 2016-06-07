@@ -1,0 +1,9 @@
+BODY {  
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; 
+color: #000000; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; 
+background-color:#FEFEEF;
+}
+TABLE, TH, TR, TD {  font-size: 11px}
+
+.msgProfessor { color:red; font-weight:bold; }
+.timeAndName { color: #043004; }

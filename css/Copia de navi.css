@@ -1,0 +1,136 @@
+@import url(padraogeral.css);
+
+.geral { 
+  position:absolute; top:0px; left:110px; z-index:0;
+	width:770; height:600;	
+  background-color:#FFFFFF; 
+	border-left:1px solid #2C3963; 
+	border-right:1px solid #2C3963;
+  border-top:0px;  	 
+  border-bottom:1px solid #2C3963;
+	
+}
+/* 
+ *
+ * Classes do topo 
+ */
+.topo {     }
+.colunaImagens {position:absolute; top:0; left:0;	}
+.imagemNivel {position:absolute; top:0; left:0; }
+.logoNavi{position:absolute; top:40; left:0;}
+.navegacao {}
+.caixaLogin {position:absolute; top:50; left:95;}
+.escolhaSubNivel {position:absolute; top:2; left:80;}
+
+/* torpedos  */
+#iconeTorpedo, #iconeTorpedoNovo { position:absolute; left:78; top:48; cursor:pointer;}
+#iconeTorpedoNovo { display:none; }
+
+#torpedo { 
+display:none; 
+position:absolute; left:96; top:0;
+height:110; width:215; overflow:auto;
+padding:5px; z-index:2;
+
+background-color: #C5D3F8; border:1px #000000 solid;   
+}
+#torpedo A { font-weight:normal;}
+.origemTorpedo A { font-weight:bold; }
+.mensagemTorpedo {  }
+
+
+ /*combo de selecao*/
+#instanciasSubNivel { width:200; }
+.nomeNivel { font-weight:bold;}
+.nomeSubNivel {}
+.escolhaInstanciaSubNivel {}
+/* 
+ * Widgets onde as pessoas escolhem seus niveis sistemicos de acordo com seus papeis no sistema
+ */
+
+ /*
+  *
+  *  
+  *  PROFESSOR 
+  */
+.arvoreInstanciasProfessor {
+  position:absolute; top:30; left:315; z-index:5;
+  background-color:#F0F5FC;
+  border:1px solid #000000;
+  width:290;
+  height:50; overflow:auto; 
+}
+.arvoreInstanciasProfessor A:hover { background-color: #C5D3F8; color: #000066;  display:block;}
+
+.tituloArvoreInstanciasProfessor {   
+position:absolute; top:15; left:315; z-index:5; width:290;
+background-color: #C5D3F8; color:#000066; font-weight: bold; border:1px solid #000000;
+}
+
+ /* 
+  *
+  *  ALUNO 
+  *    
+  */
+.arvoreInstanciasAluno {
+  position:absolute; top:30; left:315; z-index:5;
+  background-color:#F0F5FC;
+  border:1px solid #000000;
+  width:290;
+  height:50; overflow:auto; 
+}
+.arvoreInstanciasAluno A:hover { background-color: #C5D3F8; color: #000066; display:block;}
+
+.tituloArvoreInstanciasAluno {   
+position:absolute; top:15; left:315; z-index:5; width:290;
+background-color: #C5D3F8; color:#000066; font-weight: bold; border:1px solid #000000;
+}
+
+
+/*
+ * hierarquia/instancia atuais, independentemente do papel
+ */ 
+/* hierarquia da instancia de nivel sistemico atualmente selecionado pelo usuario*/ 
+.tabelaArvoreInstancias { position:relative; width:272; text-align:center; z-index:5;}
+.hierarquiaInstanciaAtual A { color:#F0F5FC; background-color:#000077; }
+.hierarquiaInstanciaAtual { color:#F0F5FC; background-color:#000077; }
+/* hierarquia da instancia de nivel sistemico atualmente selecionado pelo usuario*/ 
+.instanciaAtual { background-color: #C5D3F8; display:block;}
+.instanciaAtual A { background-color: #C5D3F8; color: #000066;}
+
+/* 
+ *
+ *
+ *  COMUNIDADES 
+ */
+.tituloComunidades { 
+  background-color:#FFDFB8; color:#000000; font-weight: normal; 
+}
+.comunidades {
+  position:absolute; top:47; left:526;  
+  /*border:1px solid #000000;   
+  background-color: #FFFFE8;*/
+}
+SELECT#escolheComunidade { background-color: #FFFFE8; width:162;}
+
+/*  Menu, recursos fixos e iframe com o recurso propriamente dito*/
+.menu { 
+   border-top: 1px dashed #C0C0C0;    border-bottom: 5px solid #000066; 
+   position:absolute; left:0; top:80;  width:769; height:35;  
+}
+.botaoSair { position:absolute; top:1; left:740; }
+.inscricao { position:absolute; top:35; left:735; z-index:2;}
+.recursoFixo {  position:absolute; top:80; left:645; width:auto; height:35;  }
+.ferramentasGerencia{}
+.espacoRecursos { position:absolute; top:130; left:0; }
+
+#recurso { width: 768px; height: 460px; z-index:1; background-color:transparent; } 
+
+
+/* Navegacao */
+.navegacao { font-size: 9px; background-color:#2A385F; position:absolute; top:10; left:250;}
+.nivelNavegacao { font-size: 9px;  color:#FFFFFF;}
+.instanciaNivelNavegacao { font-size: 9px;  background-color:#FFFFFF;}
+
+.buscar {POSITION: absolute; TOP: 12px; LEFT: 610px;}
+

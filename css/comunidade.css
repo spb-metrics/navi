@@ -1,0 +1,19 @@
+@import url(padraogeral.css);       
+
+.tituloInscricaoComunidade {  
+font-size: medium; ; font-stretch: expanded; font-weight: bolder;  
+color:#000000;
+}
+
+.tabelaComunidades {  background-color: rgb(0,0,0); }
+
+.comunidade { 
+padding:5px; border:1px #E0E0E0 dotted; 
+text-align: center; vertical-align: bottom;
+height:48px; width:100;
+}
+.comunidade A:hover{ background-color: #FFDFB8; display:block;}
+
+.tituloPendenciaComunidade {  font-weight: bold;  background-color: #FFDFB8;  display:block;}
+/* caixa com as pessoas */ 
+.pessoasComunidade { background-color: #FFDFB8; }

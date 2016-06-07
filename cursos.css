@@ -1,0 +1,53 @@
+
+
+body {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; background-color: #FFFFFF}
+td {  font-size: 9px}
+
+INPUT,SELECT {  font-size: 11px; border:1px solid #000000; }
+
+.tablemenu {  background-color: #0033CC; color: #FFFFFF; background-position: center; text-align: center}
+
+.menu {	COLOR: #000099; FONT-WEIGHT: bold; TEXT-DECORATION: none; font-size: 11px}
+.menu:visited { COLOR: #000099; FONT-WEIGHT: bold; TEXT-DECORATION: none; font-size: 11px}
+.menu:active { COLOR: #000099; FONT-WEIGHT: bold; TEXT-DECORATION: none; font-size: 11px}
+.menu:hover { COLOR: #000099; FONT-WEIGHT: bold; TEXT-DECORATION: underline; font-size: 11px}
+.menu:link { COLOR: #000099; FONT-WEIGHT: bold; TEXT-DECORATION: none; font-size: 11px}
+
+.menuprinc { COLOR: #FFFFFF; FONT-WEIGHT: normal; TEXT-DECORATION: none; font-size: 10px}
+.menuprinc:visited { COLOR: #FFFFFF; FONT-WEIGHT: normal; TEXT-DECORATION: none; font-size: 10px}
+.menuprinc:active { COLOR: #FFFFFF; FONT-WEIGHT: normal; TEXT-DECORATION: none; font-size: 10px}
+.menuprinc:hover { COLOR: #CCCCCC; FONT-WEIGHT: normal; TEXT-DECORATION: none; font-size: 10px}
+.menuprinc:link { COLOR: #FFFFFF; FONT-WEIGHT: normal; TEXT-DECORATION: none; font-size: 10px}
+
+input { font-size: 9px; font-family: Verdana, Arial, Helvetica, sans-serif; border: 1px #000099 solid}
+.menulayer {  padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; background-image: url(imagens/caixa.gif)}
+
+a { COLOR: #003399; FONT-WEIGHT: normal; TEXT-DECORATION: none; font-size: 10px}
+a:visited { COLOR: #003399; FONT-WEIGHT: normal; TEXT-DECORATION: none; font-size: 10px;}
+a:active  { COLOR: #003399; FONT-WEIGHT: normal; TEXT-DECORATION: none; font-size: 10px;}
+a:hover   { COLOR: #003399; FONT-WEIGHT: normal; TEXT-DECORATION: underline; font-size: 10px;}
+a:link    { COLOR: #003399; FONT-WEIGHT: normal; TEXT-DECORATION: none; font-size: 10px;}
+
+.BordaClara {  background-color: #003399}
+.BordaEscura { background-color: #000000}
+.CelulaClara {  background-color: #EBEBEB; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px}
+.CelulaEscura { background-color: #D8E0ED; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px}
+.CelulaTitulo { padding-top: 2px; padding-right: 5px; padding-bottom: 2px; padding-left: 5px ; font-weight: bold; background-color: #666699; color: #FFFFFF}
+.CelulaTexto { padding-top: 5px; padding-right: 5px; padding-bottom: 10px; padding-left: 5px ; font-weight: normal}
+.setas {  color: #CC0000}
+.bodybg {  background-image: url(imagens/plataforma_bg.gif); background-repeat: repeat-y}
+textarea { font-size: 9px; font-family: Verdana, Arial, Helvetica, sans-serif; border: 1px #000099 solid}
+.princ {  background-image: url(imagens/plataforma_banner.gif); background-repeat: no-repeat}
+select { font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; border: 1px #000099 solid}
+.CelulaTituloPrinc {  background-color: #000066; color: #FFFFFF; font-weight: bold; padding-top: 2px; padding-right: 5px; padding-bottom: 2px; padding-left: 5px}
+.CelulaTituloDisc { background-color: #666699; color: #FFFFFF; font-weight: bold; padding-top: 2px; padding-right: 5px; padding-bottom: 2px; padding-left: 5px }
+.bodybg_biblioteca { background-image: url(imagens/plataforma_bg.gif); background-repeat: repeat-y ; background-position: right}
+.img { TEXT-DECORATION: none}
+.branco{border:2px solid white ;}
+.brancoFino{border:1px solid white ;}
+.perfil {   color: #c0c0c0; TEXT-DECORATION: none }
+
+.colunaDireitaNoticias {padding-left:7px;}
+
+.mensagemModulo { color: #000000; text-align: center;  font-size: 11px; font-family: Verdana; }
+

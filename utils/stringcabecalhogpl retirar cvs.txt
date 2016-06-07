@@ -1,0 +1,4 @@
+$searchString='';
+
+
+$searchString="?>".chr(13).chr(10).chr(13).chr(10)."<?php";

@@ -1,0 +1,36 @@
+@import url(padraogeral.css);
+.titulo { text-align: center; font-weight: bold font-size:12px width:771px; }
+
+.tabelaChamado{
+	width:600px;
+	vertical-align: bottom;
+	text-align: left;
+	
+}
+.tabelaFundo2{
+	width:600px;
+	background-color:#000000;
+}
+.tabelaSuporte {
+	width:600px;
+	text-align: center;
+}
+.linhaPar {
+	background-color:#DDDFFF;
+}
+.linhaImpar{
+	background-color:#EDEDDD;
+}
+.tabelaFundo{
+	width:600px;
+	
+}
+.opcaoEstadoSetor{
+	width:600px;
+	font-size: 45px; font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.tabelaTitulo{
+	background-color:white;
+	color: blue;
+}

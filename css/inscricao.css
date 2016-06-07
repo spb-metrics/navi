@@ -1,0 +1,14 @@
+@import url(padraogeral.css);
+
+BODY {text-align:center;}
+
+.tituloInscricoes,.tituloInstanciaInscAberta,.tituloInscAbertas { text-align:center; font-weight:bold;}
+
+.tituloInscricoes {font-size:16px; }
+.tituloInscAbertas {font-size:16px; }
+
+.divInscricaoAberta {border:1px outset; margin-left:15px; text-align:left; padding-top:10px;}
+
+/*.tituloInstanciaInscAberta { font-} */
+
+.textoInscricao { display:block;}

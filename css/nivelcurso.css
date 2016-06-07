@@ -1,0 +1,13 @@
+@import url(cssnavi.css);
+.geral {
+border-left:1px outset #198600; 
+border-right:1px outset #198600;
+border-bottom:1px outset #198600;
+}
+.menu { 
+border-top: 1px solid #198600;     
+border-bottom: 5px solid #198600;
+}
+
+INPUT,TEXTAREA {   background-color: #ABD6D6;}
+SELECT {   background-color: #ABD6D6;}

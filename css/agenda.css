@@ -1,0 +1,11 @@
+/* CSS Document */
+
+@import url(padraogeral.css);
+
+A { font-weight:normal; }
+
+.tituloAgenda     {font-size:14px; font-weight:bold; }
+
+.agendaLinhaImpar { background-color: #D5e3f8; }
+
+.agendaLinhaPar   { background-color: #E5EFFF;}   

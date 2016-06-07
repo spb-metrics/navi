@@ -1,0 +1,21 @@
+/* CSS Document */
+BODY { 
+	font-family: Verdana,Arial,Sans-Serif; font-size: 11px;
+	background-color:#D4D0C8;
+	text-align:left;
+}
+A { color:#000066; font-size:10px; font-weight: bold; text-decoration: none; }
+
+DIV, SPAN, INPUT,SELECT,TEXTAREA ,TABLE,TH,TR,TD { font-family: Verdana,Arial,Sans-Serif; font-size: 10px; }
+INPUT,SELECT,TEXTAREA  { font-weight:bold; }
+
+.okButton { color:darkblue;}
+.cancelButton { color:darkred;}
+
+
+INPUT,TEXTAREA {   background-color: #E5EFFF;}
+SELECT {   background-color: #C5D3F8;}
+
+/*  Corpo dos recursos */
+.bodybg { background-color:#FFFFFF; color:#000000; }
+

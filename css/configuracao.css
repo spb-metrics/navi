@@ -1,0 +1,19 @@
+@import url(padraogeral.css);
+BODY{ overflow:scroll; }
+
+.tabelaFundo{
+width :100%; overflow:auto;
+background-color:#000000; z-index:0;
+}
+
+.nomeInstancia{	COLOR: #000099; FONT-WEIGHT: bold; TEXT-DECORATION: none; font-size: 11px}
+.titulo { background-color: #C5D3F8; color: #000066; font-weight:bold;} 
+.branco {background-color: white;}
+
+.CelulaClara {  background-color: #EBEBEB; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px}
+.CelulaEscura { background-color: #D8E0ED; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px}
+
+.tabelaFundo2{
+ overflow:auto;
+background-color:#000000; z-index:0;
+}

@@ -1,0 +1,51 @@
+@import url(padraogeral.css);
+
+
+#prova {
+	width:100%;
+	/*border:2px solid; margin:3px 3px 3px 3px;*/
+
+}
+
+
+#prova .titulo{
+	font-size:12px;
+	background-color: #C5D3F8;
+	color:#000099;
+	font-weight: bold;
+	border-bottom:1px solid #000000;
+	text-align: left;
+}
+
+#prova td{
+	/*background-color:#E9E9E9;*/
+	border-left: 1px dotted;
+	border-top:1px dotted;
+	border-right:1px dotted;
+	border-bottom:1px dotted;
+}
+
+#prova .tdTituloProva {
+	font-size:10px; background-color:#F4F4F4;
+	
+}
+
+#prova .tdBranca{
+	border-left: 0px;
+	border-top:0px;
+	border-right:0px;
+	border-bottom:0px;
+}
+#prova .table{
+	margin-top: 15px;
+	margin-left:10px
+}
+#prova . menu
+{
+COLOR: #000099;
+FONT-WEIGHT: bold;
+TEXT-DECORATION: none;
+font-size: 14px}
+
+}
+	

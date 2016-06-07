@@ -1,0 +1,53 @@
+<html><head>
+<style type="text/css">
+BODY {  
+background-image: url(cafeTransparente.jpg); background-repeat: repeat-y; background-position: center center;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000; 
+background-color:#FFFFFF; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;  
+}
+TABLE, TH, TR, TD { font-size: 11px}
+.msgNormal {padding:2px; border-bottom:1px solid #C0C0C0;  }
+.linhaImpar {filter:Alpha(opacity=80, style=1);}
+.linhaPar {filter:Alpha(opacity=50, style=1);}
+/* TIPOS DE MENSAGEM DIFERENCIADOS PELA PLATAFORMA */
+.msgProfessor { color:red; font-weight:bold; }
+.msgPergunta {color:green; font-weight:bold; }
+</style>
+<script>
+//Marca a saída do usuario
+function submit_exit() {  
+  parent.frames[1].document.form1.MESSAGE.value = "/quit"; 
+  parent.frames[1].document.form1.submit(); 
+}
+
+function startBuscaMensagens() {
+  try{
+    xmlhttp = new XMLHttpRequest();
+  }catch(ee){
+    try{
+      xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+    }catch(e){
+      try{
+          xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+      }catch(E){
+          xmlhttp = false;
+      }
+    }
+  }
+  window.setInterval("buscaMensagens(xmlhttp)",6000);
+}
+
+function setAlive(xmlhttp) {
+
+  xmlhttp.open("GET",'b.php',true);
+  //colocar aqui o codigo para alimentar as msgs recebidas,
+  //bem como receber o codigo da ultima mensagem digitada
+  
+  //Executa
+  xmlhttp.send(null);  
+}
+</script>
+</head>
+<body  onUnLoad="submit_exit();" onLoad="startBuscaMensagens();">
+<div id="mensagensChat"></div>
+</body></html>

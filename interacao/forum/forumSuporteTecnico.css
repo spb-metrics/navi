@@ -1,0 +1,33 @@
+BODY { font-size: 11px; font-style: normal;  }
+
+
+.forum {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; background-color: #FFFFFF}
+.escreve {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; background-color: #C1C1F0; font-weight: bold; color: #0000FF}
+.exibe_normal {  border-top:1px solid #000000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; background-color: #FFFFFF}
+.exibe_resposta {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; background-color: #F0F0F0}
+.escreve2 { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-style: normal; font-weight: normal; color: #0000FF }
+/*msgs do professor*/
+.exibe_prof_normal {  border-top:1px solid #000000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; background-color: #FFFFFF}
+.exibe_prof_resposta {  font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; background-color: #F0F0F0}
+
+.cabecalho { border-bottom:2px solid #000000;}
+
+a:link {  text-decoration: none}
+a:hover {  text-decoration: underline}
+a:active {  text-decoration: none}
+a:visited {  text-decoration: none}
+.exibe_titulo { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-style: normal; background-color: #C1C1F0; font-weight: bold; color: #0000FF}
+
+
+.usuario { color: #0000FF; }
+
+.paginacao { font-family: Arial, Helvetica, sans-serif; font-size: 11px }
+
+/** ESTILO PARA EMOTICONS **/
+
+/** CLASSE PARA A IMAGEM PROPRIAMENTE DITA DO EMOTICON **/
+.emoticon { border: 0 }
+
+#tabelaEmoticons { }
+#linhaTabelaEmoticons {}
+#colunaTabelaEmoticons {} 
